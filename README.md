@@ -1,2 +1,2 @@
-# Practica1-DDW4
+# Responsive-arigato
 Práctica 1
