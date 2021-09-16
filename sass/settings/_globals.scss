@@ -14,7 +14,6 @@ body {
 .wrapper {
   margin: 0 auto;
   width: $wrapper-xs;
-  
   @media (min-width: $wrapper-s) {
     width: $wrapper-s;
     
@@ -34,7 +33,6 @@ body {
   width: $container-xs;
   flex-direction: column;
   display: flex;
-
   @media (min-width: $wrapper-s) {
     flex-direction: row;
     width: $container-s; 

@@ -1,0 +1,41 @@
+.accordeon{
+    border: none;
+    border-radius: $size;
+    background-color: $green;
+    color: $white;
+    font-family: $secondary-typo;
+    font-size: $typo-m;
+    margin-bottom: $size;
+    transition: 0.4s;
+    text-align: start;
+    padding: $size;
+    width: 100%;
+    &::after{
+        content: "\1F863";
+        float: right;
+    }
+}
+
+.active::after {
+    content: "\1F861";
+    float: right;
+}
+
+.accordeon__content{
+    display: none;
+    font-family: $main-typo;
+    font-size: $typo-s;
+    ul{
+        list-style: none;
+        padding: 0 16px;
+    }
+
+    a{
+        text-decoration: none;
+        color: $white;
+    }
+
+    li{
+        margin-bottom: $size;
+    }
+}
