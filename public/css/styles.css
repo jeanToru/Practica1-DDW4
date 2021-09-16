@@ -157,3 +157,18 @@ a {
     color: #FFFFFF; }
   .accordeon__content li {
     margin-bottom: 1rem; }
+
+.vips {
+  background-color: #788BFF;
+  border-radius: 1rem;
+  width: 100%; }
+
+.vips__container h2 {
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 2rem; }
+
+.vips__container--famous {
+  text-align: center; }
+  .vips__container--famous img + img {
+    margin-left: 2rem; }
