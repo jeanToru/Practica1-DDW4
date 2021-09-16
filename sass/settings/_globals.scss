@@ -5,15 +5,43 @@ html {
   font-size: 10px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
 .wrapper {
+  margin: 0 auto;
   width: $wrapper-xs;
+  
+  @media (min-width: $wrapper-s) {
+    width: $wrapper-s;
+    
+  }
+  @media (min-width: $wrapper-m) {
+    width: $wrapper-m;
+    
+  }
+  @media (min-width: $wrapper-l) {
+    width: $wrapper-l;
+
+  }
 }
 
 .container {
   margin: 0 auto;
   width: $container-xs;
+  flex-direction: column;
+  display: flex;
+
+  @media (min-width: $wrapper-s) {
+    flex-direction: row;
+    width: $container-s; 
+  }
 }
 
 h1, h2, h3, h4 {
+  margin: 0;
   font-family: $secondary-typo;
 }
