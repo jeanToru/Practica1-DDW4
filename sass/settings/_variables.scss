@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+//wrapper
+$wrapper-xs: 360px;
+$wrapper-s: 720px;
+$wrapper-m: 1024px;
+$wrapper-l: 1440px;
+
+//container
+$container-xs: 330px;
+$container-s: 650px;
+$container-m: 1150px;
+$container-l: 1315px;
+
+//typography
+$main-typo: 'poppins', sans-serif;
+$secondary-typo: 'marmelad', sans-serif;
+
+//primitives-colors
+$orange: #F3B479;
+$green: #6CCA7F;
+$purple: #8377D1;
+$light-purple: #788BFF;
+$white: #FFFFFF;
+
+//background-color
+$dark-purple: #292A39;
+
+//size
+$size: 1rem;
+
+$typo-xs: $size;
+$typo-s: $size * 1.2;
+$typo-m: $size * 1.4;
+$typo-l: $size * 1.6;
+$typo-x: $size * 1.8;
+$typo-xl: $size * 2;
+$typo-xxl: $size * 2.4;
+$typo-xxxl: $size * 3.2;

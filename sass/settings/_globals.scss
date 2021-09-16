@@ -1,0 +1,19 @@
+html {
+  background: $dark-purple;
+  color: $white;
+  font-family: $main-typo;
+  font-size: 10px;
+}
+
+.wrapper {
+  width: $wrapper-xs;
+}
+
+.container {
+  margin: 0 auto;
+  width: $container-xs;
+}
+
+h1, h2, h3, h4 {
+  font-family: $secondary-typo;
+}
