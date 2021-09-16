@@ -6,6 +6,7 @@
   flex-direction: column;
   margin-bottom: 2rem;
   margin-right: 2rem;
+  position: relative;;
 }
 
 .card__img {
@@ -48,13 +49,13 @@
   }
 
   align-items: center;
-  background: $dark-purple;
+  background: #454C78;
   border-radius: 0 0 $typo-xl $typo-xl;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0.5rem $typo-xl;
-  width: 88.5%;
+  width: 87.3%;
 }
 
 .card__social--links {

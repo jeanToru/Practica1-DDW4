@@ -8,8 +8,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  text-transform: capitalize; }
+  padding: 0; }
 
 .wrapper {
   margin: 0 auto;
@@ -38,6 +37,9 @@ h1, h2, h3, h4 {
   margin: 0;
   font-family: "marmelad", sans-serif; }
 
+a {
+  text-decoration: none; }
+
 .card {
   background: #8377D1;
   border-radius: 2rem;
@@ -45,7 +47,8 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  position: relative; }
 
 .card__img {
   width: 100%; }
@@ -69,13 +72,13 @@ h1, h2, h3, h4 {
 
 .card__social {
   align-items: center;
-  background: #292A39;
+  background: #454C78;
   border-radius: 0 0 2rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0.5rem 2rem;
-  width: 88.5%; }
+  width: 87.3%; }
   .card__social p {
     color: #FFFFFF;
     padding-right: 1rem; }
@@ -84,6 +87,43 @@ h1, h2, h3, h4 {
 
 .card__social--links {
   padding: 1rem 0; }
+
+.modal {
+  background: rgba(24, 26, 65, 0.95);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3rem;
+  text-align: center;
+  position: fixed;
+  left: 10.5%;
+  top: 25vh;
+  width: 210px; }
+
+.modal__close {
+  align-self: flex-end;
+  flex: 0 1 auto; }
+
+.modal__content h4 {
+  font-size: 1.4rem;
+  padding: 1rem; }
+
+.modal__content p {
+  line-height: 1.6rem;
+  margin: 0 auto;
+  width: 80%; }
+
+.modal__social--links {
+  padding: 1rem 1rem 0.5rem 1rem; }
+
+.modal__email {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.2rem; }
+
+.js__none {
+  display: none; }
 
 .accordeon {
   border: none;

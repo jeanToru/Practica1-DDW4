@@ -1,0 +1,46 @@
+.modal {
+  background: rgba(24, 26, 65, 0.95);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3rem;
+  text-align: center;
+  position: fixed;
+  left: 10.5%;
+  top: 25vh;
+  width: 210px;
+}
+
+.modal__close {
+  align-self: flex-end;
+  flex: 0 1 auto;
+}
+
+.modal__content {
+  h4 {
+    font-size: $typo-m;
+    padding: $size;
+  }
+
+  p {
+    line-height: $typo-l;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.modal__social--links {
+  padding: $size $size 0.5rem $size;
+}
+
+.modal__email {
+  color: $white;
+  font-weight:  700;
+  font-size: $typo-s;
+}
+
+// js class
+.js__none {
+  display: none;
+}
