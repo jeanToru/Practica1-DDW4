@@ -124,3 +124,36 @@ a {
 
 .js__none {
   display: none; }
+
+.accordeon {
+  border: none;
+  border-radius: 1rem;
+  background-color: #6CCA7F;
+  color: #FFFFFF;
+  font-family: "marmelad", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  transition: 0.4s;
+  text-align: start;
+  padding: 1rem;
+  width: 100%; }
+  .accordeon::after {
+    content: "\1F863";
+    float: right; }
+
+.active::after {
+  content: "\1F861";
+  float: right; }
+
+.accordeon__content {
+  display: none;
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem; }
+  .accordeon__content ul {
+    list-style: none;
+    padding: 0 16px; }
+  .accordeon__content a {
+    text-decoration: none;
+    color: #FFFFFF; }
+  .accordeon__content li {
+    margin-bottom: 1rem; }
