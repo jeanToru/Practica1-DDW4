@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+html {
+  background: #292A39;
+  color: #FFFFFF;
+  font-family: "poppins", sans-serif;
+  font-size: 10px; }
+
+.wrapper {
+  width: 360px; }
+
+.container {
+  margin: 0 auto;
+  width: 330px; }
+
+h1, h2, h3, h4 {
+  font-family: "marmelad", sans-serif; }
