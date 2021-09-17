@@ -1,0 +1,67 @@
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 2.188rem;
+}
+
+.anime-img {
+  height: 118px;
+  width: 157.33px;
+  border-radius: 0.938rem;
+}
+
+.anime-2 {
+  float: right;
+  margin-left: 12px;
+}
+
+.line-2 {
+  border-bottom: 0.2rem #fff solid;
+  width: 25.5rem;
+  position: relative;
+}
+
+.coments {
+  width: 323px;
+  height: 51px;
+  background: #645E5E;
+  border-radius: 8px;
+}
+
+.botton-comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  width: 62px;
+  height: 20px;
+  border: 2px solid #788BFF;
+  background-color: transparent;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  float: right;
+  margin-top: 2px;
+}
+
+.name {
+  color: $green;
+  margin-left: 50px;
+}
+
+.porfile {
+  width: 38px;
+  height: 39px;
+  margin-top: 22px;
+  border-radius: 50px;
+  float: left;
+}
+
+.commests {
+  width: 299px;
+}
+
+.comment {
+  width: 247px;
+  float: inline-end;
+}
