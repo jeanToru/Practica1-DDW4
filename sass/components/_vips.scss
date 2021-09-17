@@ -1,0 +1,21 @@
+.vips{
+    background-color: $light-purple;
+    border-radius: $size;
+    width: 100%;
+}
+
+.vips__container{
+    h2{
+        color: black;
+        font-size: $typo-x;
+        margin-bottom: 2rem;
+    }
+}
+
+.vips__container--famous{
+    text-align: center;
+    img + img{
+        margin-left: 2rem;
+    }
+}
+

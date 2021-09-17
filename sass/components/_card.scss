@@ -1,0 +1,63 @@
+.card {
+  background: $purple;
+  border-radius: $typo-xl;
+  color: $dark-purple;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  position: relative;;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__content {
+  h2 {
+    font-size: $typo-xl;
+  }
+  
+  p {
+    font-size: $typo-s;
+    font-weight: 400;
+    line-height: $typo-x;
+  }
+  
+  padding: 10px 20px;
+}
+
+.card__ancore {
+  align-self: flex-end;
+  flex: 0 1 auto;
+  padding:0 20px $size 20px;
+  
+  a {
+    color: $orange;
+    font-weight: 700;
+  }
+}
+
+.card__social {
+  p {
+    color: $white;
+    padding-right: $size;
+  }
+
+  img {
+    padding-right: 0.5rem;
+  }
+
+  align-items: center;
+  background: #454C78;
+  border-radius: 0 0 $typo-xl $typo-xl;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0.5rem $typo-xl;
+  width: 87.3%;
+}
+
+.card__social--links {
+  padding: $size 0;
+}
