@@ -47,7 +47,6 @@ a {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  margin-right: 2rem;
   position: relative; }
 
 .card__img {
@@ -88,6 +87,10 @@ a {
 .card__social--links {
   padding: 1rem 0; }
 
+.see-more {
+  font-size: 1.6rem;
+  text-align: center; }
+
 .modal {
   background: rgba(24, 26, 65, 0.95);
   border-radius: 0.8rem;
@@ -97,7 +100,7 @@ a {
   padding: 3rem 3rem;
   text-align: center;
   position: fixed;
-  left: 10.5%;
+  left: 14.5%;
   top: 25vh;
   width: 210px; }
 
@@ -161,6 +164,7 @@ a {
 .footer {
   display: flex;
   flex-direction: column;
+  font-size: 1.2rem;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
@@ -173,6 +177,14 @@ a {
   justify-content: space-between;
   margin: 1rem 0;
   width: 20%; }
+
+.about__us {
+  font-size: 1.2rem;
+  margin: 2rem 0 2rem 0; }
+
+.about__us--title {
+  font-size: 1.4rem;
+  font-weight: bold; }
 
 .vips {
   background-color: #788BFF;
@@ -198,7 +210,10 @@ a {
   right: 0;
   top: 0;
   transition: right 0.8s;
-  display: none; }
+  display: none;
+  z-index: 5; }
+  .menu a {
+    color: #FFFFFF; }
 
 .header {
   width: 328px;
@@ -247,3 +262,28 @@ a {
   width: 10.5rem;
   position: relative;
   left: 1.25rem; }
+
+.welcome {
+  background-image: url("../../img/wave.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px; }
+
+.firstAd {
+  background-image: url("../../img/first-ad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  height: 60px;
+  margin: 2rem 0 2rem 0; }
+
+.secondAd {
+  background-image: url("../../img/second-ad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  height: 60px;
+  margin: 2rem 0 2rem 0; }

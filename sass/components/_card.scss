@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  margin-right: 2rem;
   position: relative;;
 }
 
@@ -60,4 +59,9 @@
 
 .card__social--links {
   padding: $size 0;
+}
+
+.see-more{
+  font-size: $typo-l;
+  text-align: center;
 }

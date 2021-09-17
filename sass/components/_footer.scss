@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
+  font-size:$typo-s;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
@@ -14,4 +15,13 @@
   justify-content: space-between;
   margin: $size 0;
   width: 20%;
+}
+
+.about__us{
+  font-size:$typo-s;
+  margin: 2rem 0 2rem 0;
+}
+.about__us--title{
+  font-size:$typo-m;
+  font-weight: bold;
 }
