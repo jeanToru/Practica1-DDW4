@@ -287,3 +287,31 @@ a {
   border-radius: 8px;
   height: 60px;
   margin: 2rem 0 2rem 0; }
+
+.slider {
+  display: flex;
+  margin-bottom: 5rem;
+  overflow-x: scroll;
+  padding-bottom: 1rem; }
+
+.slider__card {
+  background: #8D8282;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-right: 2rem; }
+  .slider__card h4 {
+    font-size: 1.6rem; }
+  .slider__card img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 220px; }
+  .slider__card a {
+    color: #FFFFFF; }
+
+.slider__card--link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem 2rem 0rem; }
