@@ -45,6 +45,14 @@ h1, h2, h3, h4 {
   font-family: $secondary-typo;
 }
 
+p {
+  font-size: $typo-s;
+  @media (min-width: $wrapper-m) {
+    font-size: $typo-m; 
+    font-weight: lighter;
+  }
+}
+
 a{
   text-decoration: none;
 }

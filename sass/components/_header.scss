@@ -38,6 +38,13 @@
   text-indent: 100%;
   white-space: nowrap;
   float: right;
+
+  @media (min-width: $wrapper-s){
+    background-size: 3rem;
+  }
+  @media (min-width: $wrapper-m){
+    background-size: 4rem;
+  }
 }
 
 .menu_list {
