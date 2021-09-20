@@ -33,8 +33,10 @@ body {
   flex-direction: column;
   display: flex;
   @media (min-width: $wrapper-s) {
-    flex-direction: row;
     width: $container-s; 
+  }
+  @media (min-width: $wrapper-m){
+    width: $container-m; 
   }
 }
 

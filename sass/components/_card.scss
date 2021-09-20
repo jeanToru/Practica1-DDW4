@@ -55,6 +55,12 @@
   justify-content: flex-end;
   padding: 0.5rem $typo-xl;
   width: 87.3%;
+  @media (min-width: $wrapper-s) {
+    width: 94.4%;
+  }
+  @media (min-width: $wrapper-m){
+    width: 96%
+  }
 }
 
 .card__social--links {

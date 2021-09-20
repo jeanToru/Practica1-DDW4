@@ -15,7 +15,7 @@
 }
 
 .header {
-  width: 328px;
+  width: 100%;
   margin-top: 1rem;
 }
 
@@ -71,9 +71,7 @@
 }
 
 .welcome{
-  background-image: url('../../img/wave.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 110px;
+  img{
+    width: 100%;
+  }
 }

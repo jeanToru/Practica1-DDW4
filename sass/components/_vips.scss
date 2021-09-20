@@ -14,6 +14,15 @@
 
 .vips__container--famous{
     text-align: center;
+    img{
+        width: 18%;
+        @media (min-width: $wrapper-s) {
+            width: 21.4%;
+        }
+        @media (min-width: $wrapper-m){
+            width: 25%
+        }
+    }
     img + img{
         margin-left: 2rem;
     }
